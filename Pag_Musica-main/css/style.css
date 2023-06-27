@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+body{
+    margin: 0px;
+    
+}
+header{
+    background: url(../images/angel.jpg) ;
+    height: 920px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.tittle{
+    color: rgb(255, 255, 255);
+    font-size: 217px;
+    margin: 11px 612px 40px;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+}
+.box1{
+    text-align: center;
+    margin: 80px 400px 10px; 
+}
+.about{
+    width: 99%;
+    height: 500px;
+    margin: 170px 0px 50px;
+    border: 1px solid rgb(255, 255, 255);
+}
+/* esto dunciona par los dos */
+h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: left;
+    margin: 50px 6px 0px;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+
+h1:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(250, 73, 83) 4%, rgb(218, 1, 112) 9%);
+
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#loudre:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(250, 73, 83) 10%, rgb(218, 1, 112) 30%);
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+h2{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: left;
+    margin: 0px 6px 0px;
+}
+.about_tex {
+    font-size: 23px;
+    width: 50% ;
+    height: 400px;
+    margin: 15px 10px 0px;
+    text-align: left;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: left;
+}
+.about_img{
+    width: 35%;
+    height: 500px;
+    float: right;
+}
+/* para los 3 */
+.go{
+    background-color: #fc4c5b;  
+	color: aliceblue;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 0px 0px 0px;
+    padding: 17px;
+    font-size: 17px;
+}
+.about2{
+    width: 100%;
+    height: 500px;
+    margin: 0px 0px 170px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.about_tex2 {
+    font-size: 23px;
+    width: 47% ;
+    height: 461px;
+    margin: 7px 0px 0px;
+    text-align: left;
+    float: right;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: left;
+}
+.about_img2{
+    width: 37%;
+    height: 520px;
+    float: left;
+}
+article{
+    background: url(../images/raptis.png) ;
+    height: 600px;
+    background-size: cover;
+}
+.about_texto{
+    width: 30% ;
+    height: 400px;
+    margin: 100px 170px 0px;
+    text-align: left;
+    float: right;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: left;
+}
+h3{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: left;
+}
+footer {     
+    background: linear-gradient(to right, rgb(250, 73, 83) 70%, rgb(218, 1, 112) 154%);
+    font-family: 'Hind', sans-serif;
+    padding-top: 146px;
+    margin-top: -3px;
+    color: #ffffff;
+}  
+.container {  
+    max-width: 1200px;   
+    margin: 0px 225px 0px;
+}  
+.footer-row { 
+    display: flex;  
+} 
+.footer-links {  
+    text-decoration: none;
+    width: 23%; 
+    margin-bottom: 77px; 
+    margin-top: -100px; 
+} 
+.footer-links h4 {  
+    font-size: 16px;
+    margin-bottom: 60px;
+    display: inline-block; 
+}
+.footer-links ul {
+    list-style-type: none;
+    margin: 0px 0px 0px;
+}
+ul {
+padding: 0;
+}
+.footer-links li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 15px;
+} 
+hr { 
+    height: 1px;
+    width: 79%;
+    margin: 0px 225px 0px;
+    background: #ffffffd3;
+    border: none;  
+}
+.let 
+{
+    margin: 0px 228px 0px;
+    width: 82%;
+    height: 70px;
+}
+.corr { 
+    width: 25%;  
+    margin: 20px 0px 0px ;
+    font-size: 18px;
+}
+.cor { 
+    width: 15%;  
+    margin: 0px 0px 0px ;
+    float: right;
+    font-size: 18px; 
+}
+.clear{
+    clear: both;
+}
